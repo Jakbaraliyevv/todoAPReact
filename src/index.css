@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #121212;
+  color: #ffff;
+}
+
+/* .container{
+  width: 90%;
+  margin: 0 auto;
+} */
+
+card {
+  width: 20%;
+  height: 25px;
+  background: transparent;
+  border: 1px solid gold;
+  outline: none;
+  color: gold;
+  display: flex;
+  align-items: center;
+  
+}
